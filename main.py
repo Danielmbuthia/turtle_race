@@ -29,7 +29,6 @@ while is_race_on:
                 print("You won the bet")
             else:
                 print(f"You lost. The winning turtle was {turtle.pencolor()}")
-                is_race_on = False
         race_distance = random.randint(0, 10)
         turtle.forward(race_distance)
 
